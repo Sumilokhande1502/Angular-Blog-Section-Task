@@ -1,0 +1,33 @@
+<section id="pricing" class="secondary-color text-center scrollto clearfix ">
+    <div class="row clearfix">
+        <div class="col-md-8">
+            <div class="section-heading">
+                <h3>{{blog.image}}</h3>
+                <h2 class="section-title">{{blog.title}}</h2>
+            </div>
+            <div *ngFor="let post of blog.content" class="post-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+                <h5>{{blog.content}}</h5>
+                <p class="post-subtitle">By {{blog.author}}</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="section-heading">
+                <h3>{{blog.adv_image}}</h3>
+                <h2 class="section-title">{{blog.adv_title}}</h2>
+            </div>
+            <div *ngFor="let post of blog.content" class="post-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+                <h5>{{blog.adv_description}}</h5>
+            </div>
+            </div>
+            <div class="section-heading">
+                <h3>{{blog.image}}</h3>
+                <h2 class="section-title">{{blog.title}}</h2>
+            </div>
+            <div *ngFor="let post of blog.content" class="post-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+                <h5>{{blog.content}}</h5>
+                <p class="post-subtitle">By {{blog.author}}</p>
+            </div>
+        </div>
+        
+    </div>
+</section>
